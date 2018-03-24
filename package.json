@@ -1,6 +1,6 @@
 {
   "name": "@source4society/react-scepter-web-gtm-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Google Tag Manager component for the web",
   "main": "lib/index.js",
   "repository": "https://github.com/source4societyorg/react-scepter-web-gtm-component.git",
@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "test": "eslint ./src/*.js ./tests/*.js && jest --coverage",
-    "build": "babel src/index.js --minified --out-file lib/index.js",
+    "build": "babel src/index.js --minified --out-file lib/index.js && babel src/props.js --minified --out-file lib/props.js",
     "prepublish": "npm run build"
   },
   "jest": {
