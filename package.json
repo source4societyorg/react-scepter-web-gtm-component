@@ -1,6 +1,6 @@
 {
   "name": "@source4society/react-scepter-web-gtm-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Google Tag Manager component for the web",
   "main": "lib/index.js",
   "repository": "https://github.com/source4societyorg/react-scepter-web-gtm-component.git",

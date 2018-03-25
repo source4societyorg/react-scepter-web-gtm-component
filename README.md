@@ -22,6 +22,8 @@ or
 
     yarn add @source4society/react-scepter-web-gtm-component
 
+At least a single <script></script> tag must be found in you document for this component to work.
+
 # Usage
 
 Add this component to your web application to load a GTM container on mount. Note that if you are using a react-style router then you will likely have to add some logic for triggering GTM events upon navigation. This is best done inside of GTM itself. Example usage:
